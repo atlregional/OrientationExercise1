@@ -15,7 +15,7 @@ const App = () => {
   const [ sortParams, setSortParams] = useState();
 
   // Parse info from ./data/APIs.csv to setAPIOptions for rendering API dropdown
-  const handleAPIOptions = () => {};
+  const getAPIOptions = () => {};
   
   // Make API request based on selectedAPI and then setFeatures and setFields
   const getData = () => {};
@@ -26,18 +26,17 @@ const App = () => {
   // Sort function should return -1, 1, or 0 
   const sortData = (a, b, sortParams) => {};
 
-  useEffect(handleAPIOptions, []);
+  useEffect(getAPIOptions, []);
 
   return (
     <div className='App'>
-      <div className='controls-container'>
-        Controls
+      <div className='selectors-container'>
+        <h1>Selectors</h1>
         {
           // Render Dropdowns and Input components here
         }
       </div>
       <div className='table-container'>
-        Table
         {
           // Render Table here
         }

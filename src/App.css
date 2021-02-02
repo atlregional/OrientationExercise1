@@ -1,13 +1,15 @@
 .App {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: grid;
-  align-items: center;
   text-align: center;
   grid-template-rows: 20% 80%;
 }
 
-.table-container,
-.controls-container {
-  font-size: 2em;
+.table-container {
+  background-color: rgb(223, 185, 116);
+}
+
+.selectors-container {
+  background-color: rgb(147, 147, 180);
 }
